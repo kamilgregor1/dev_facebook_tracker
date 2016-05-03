@@ -11,11 +11,11 @@ e_pt <- new.env()  # an environment for lists of posts
 
 # set parameters
 
-location <- "C:/Users/NB/Desktop/"
+location <- "C:/Users/kgregor/dev_facebook_tracker/"
 e_pr$tk <- "458515980970791|WLwRW5waE3JNH55v10XaH2aY9yY"  # a Facebook API token
 #e_pt$tk <- "CAACEdEose0cBAFuAmGd3MKHCiA7j9720aPKEJlMPaT9YQZC6MvoHhNi6VRN7WhZCENyNXHVPuvZByFHPxRcdOdCM0hZCe3UiScT9szEfDZCYKuZB5HAZANLm0axIxackZA9cSKSVVPAfAg4PyZC1UdBgiCZCYLEZB3g2noE2JPiVYuynTyngJtBxA4kkaokLEdVuYAFwlZBLSdGsNOERwhEKvXoG"
-e_pr$sn <- "2016-04-20"
-e_pr$un <- "2016-05-01"
+e_pr$sn <- "2009-09-01"
+e_pr$un <- "2016-05-02"
 
 # set a working directory
 

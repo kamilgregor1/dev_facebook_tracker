@@ -1,4 +1,3 @@
 page	name	label	id	type
-TOP 09	top09cz	TOP 09	90002267161	party
 ODS	ods.cz	ODS	30575632699	party
 Zelení	stranazelenych	Zeleni	39371299263	party

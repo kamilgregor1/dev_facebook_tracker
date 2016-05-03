@@ -1,6 +1,6 @@
 library(googleVis)
 
-test <- e_pt$pt_ods.cz
+test <- e_pt$pt_stranazelenych
 
 time <- test$created_time
 time <- strsplit(time, "T")
@@ -17,7 +17,7 @@ created_time <- paste(date, time, sep = " ")
 test$created_time <- created_time
 test$created_time <- as.POSIXlt(strptime(test$created_time, "%Y-%m-%d %H:%M:%S"))
 
-test <- test[which(test$date > as.Date("2016-04-25", "%Y-%m-%d")), ]
+test <- test[which(test$date > as.Date("2015-05-03", "%Y-%m-%d")), ]
 
 link <- test$id
 link <- strsplit(link, "_")

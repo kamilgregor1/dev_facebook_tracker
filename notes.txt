@@ -1,0 +1,111 @@
+pages
+
+- sidebar
+	- select up to x pages (via x select boxes)
+	- select time period
+	- select metrics (checkbox)
+- main panel
+	- linechart time x variable
+	- variables:
+		- total number of fans (secondary axis)
+		- new page likes (primary axis)
+		- new post comments (primary axis)
+		- new post likes (primary axis)
+		- average post wordcount (secondary axis)
+		- average comment wordcount (secondary axis)
+		- gini index of commenters (? axis)
+
+pages scatterplot
+
+- sidebar
+	- select time period
+	- select metrics (3 select boxes - x, y, size)
+		- metrics:
+			- new comments
+			- new likes
+			- new shares
+			- average post wordcount
+			- average comment wordcount
+			- gini index of commenters
+	- static/dynamic (select box)
+- main panel
+	- scatterplot, each point one post
+		- x, y, size - predefined metrics
+		- color - page type?
+
+posts timeline
+
+- sidebar
+	- select up to 2 pages (via 2 select boxes)¨
+	- select time period
+	- select metrics (select box)
+- main panel
+	- two column charts, each column one post
+	- variables:
+		- post comments
+		- post likes
+		- post shares
+		- post wordcount
+		- post average comment wordcount
+	- colors - post type
+
+posts content type
+
+- sidebar
+	- select up to 2 pages (via 2 select boxes)
+	- select time period
+	- select metrics (select box)
+		- type of content
+		- linked pages
+- main panel
+	- pie chart (content type) or bar chart (linked pages)
+
+posts scatterplot
+
+- sidebar
+	- select up to 2 pages (via 2 select boxes)
+	- select time period
+	- select metrics (3 select boxes - x, y, size)
+		- metrics:
+			- comments
+			- likes
+			- shares
+			- post wordcount
+			- average comment wordcount
+			- gini index of commenters
+	- static/dynamic (select box)
+- main panel
+	- scatterplot, each point one post
+		- x, y, size - predefined metrics
+		- color - page
+
+posts wordcloud
+
+- sidebar
+	- select 1 page (via a select box)
+	- select time period
+	- select word length (slider)
+- main panel
+	- wordcloud
+
+posts word frequency
+
+- sidebar
+	- select up to x pages (via x select boxes)
+	- select time period
+	- type a word (text box)
+- main panel
+	- line chart with numbers of times the word was mentioned in
+		- pages
+		- posts
+
+users overlap
+
+- sidebar
+	- select time period
+	- select static/dynamic
+- main panel
+	- scatterplot, each point one page
+		- x, y - dimensions
+		- size - page likes
+		- color - page type?
